@@ -1,13 +1,17 @@
+import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 import { Outlet } from "react-router-dom";
 
-type LayoutProps = {};
-
-export const Layout = ({}: LayoutProps) => {
+export const Layout = () => {
   return (
     <>
-      <header>head</header>
+      <Header />
+
       <Outlet />
-      <footer>foot</footer>
+
+      <Contact />
+      <Footer />
     </>
   );
 };
