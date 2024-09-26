@@ -3,7 +3,7 @@ import "@/styles/slider.css";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 
-export default function App() {
+export const Slider = () => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
@@ -20,12 +20,10 @@ export default function App() {
     <>
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
-          <div className="keen-slider__slide number-slide1">1</div>
-          <div className="keen-slider__slide number-slide2">2</div>
-          <div className="keen-slider__slide number-slide3">3</div>
-          <div className="keen-slider__slide number-slide4">4</div>
-          <div className="keen-slider__slide number-slide5">5</div>
-          <div className="keen-slider__slide number-slide6">6</div>
+          <div className="keen-slider__slide number-slide1"></div>
+          <div className="keen-slider__slide number-slide2"></div>
+          <div className="keen-slider__slide number-slide3"></div>
+          <div className="keen-slider__slide number-slide4"></div>
         </div>
         {loaded && instanceRef.current && (
           <>
@@ -68,7 +66,7 @@ export default function App() {
       )}
     </>
   );
-}
+};
 
 function Arrow(props: {
   disabled: boolean;
