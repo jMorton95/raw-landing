@@ -9,9 +9,55 @@ export const Contact = () => {
           Contact us
         </h2>
 
-        <div className="grid sm:grid-cols-1 items-center gap-12">
-          <div className="grid sm:grid-cols-2 gap-x-24 gap-y-12 mx-auto">
-            <div className="flex items-center bg-white">
+        <div className="grid lg:grid-cols-2 items-start gap-12">
+          <form
+            action={`mailto:${import.meta.env.VITE_EMAIL}`}
+            method="POST"
+            encType="text/plain"
+            className="space-y-3 text-gray-800"
+          >
+            <input
+              type="text"
+              placeholder="Name"
+              id="name"
+              required
+              name="name"
+              className="w-full bg-gray-100 rounded py-3 px-6 text-sm focus:bg-transparent focus:outline-blue-600"
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+              name="email"
+              className="w-full bg-gray-100 rounded py-3 px-6 text-sm focus:bg-transparent focus:outline-blue-600"
+            />
+            <input
+              type="text"
+              id="phone"
+              placeholder="Phone No."
+              required
+              name="phone"
+              className="w-full bg-gray-100 rounded py-3 px-6 text-sm focus:bg-transparent focus:outline-blue-600"
+            />
+            <textarea
+              required
+              id="message"
+              placeholder="Message"
+              name="message"
+              rows={6}
+              className="w-full bg-gray-100 rounded px-6 text-sm pt-3 focus:bg-transparent focus:outline-blue-600"
+            ></textarea>
+            <button
+              type="submit"
+              className="text-white bg-blue-600 hover:bg-blue-700 rounded text-sm px-6 py-3 !mt-6"
+            >
+              Send Message
+            </button>
+          </form>
+
+          <div className="grid sm:grid-cols-2  gap-12">
+            <div className="flex items-start bg-white">
               <div className="shadow-[0_0px_2px_0px_rgba(6,81,237,0.3)] rounded px-3 py-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -102,28 +148,6 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-          <a
-            type="submit"
-            href=""
-            className="text-white bg-blue-600 mx-auto w-64 hover:bg-blue-700 max-w-64 rounded text-sm px-6 py-3"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16px"
-              height="16px"
-              fill="currentColor"
-              className="mr-2 inline"
-              viewBox="0 0 548.244 548.244"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z"
-                clip-rule="evenodd"
-                data-original="#000000"
-              />
-            </svg>
-            Email Us
-          </a>
         </div>
       </div>
     </div>

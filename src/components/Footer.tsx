@@ -7,7 +7,7 @@ export const Footer = () => {
             Get in touch today
           </h6>
           <a
-            href="/contact"
+            href={`mailto:${import.meta.env.VITE_EMAIL}`}
             className="sm:px-4 max-sm:px-2 py-2 sm:text-sm max-sm:text-xs rounded-full text-blue-600 gap-2 bg-white ml-auto"
           >
             Contact us
