@@ -1,6 +1,7 @@
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { Slider } from "@/components/Slider";
 import { Outlet } from "react-router-dom";
 
 export const Layout = () => {
@@ -8,9 +9,12 @@ export const Layout = () => {
     <>
       <Header />
 
+      <Slider />
+
       <Outlet />
 
       <Contact />
+
       <Footer />
     </>
   );

@@ -1,11 +1,13 @@
-import { Slider } from "@/components/Slider";
+import { Faqs } from "@/components/Faqs";
+import { Testimonials } from "@/components/Testimonials";
 
 type HomeProps = {};
 
 export const Home = ({}: HomeProps) => {
   return (
     <>
-      <Slider />
+      <Faqs />
+      <Testimonials />
     </>
   );
 };

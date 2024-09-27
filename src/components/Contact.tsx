@@ -2,7 +2,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="font-[sans-serif] max-w-6xl max-lg:max-w-3xl mx-auto p-4"
+      className="font-[sans-serif] max-w-6xl max-lg:max-w-3xl mx-auto p-4 my-12 mb-24"
     >
       <div className="bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded p-8">
         <h2 className="text-3xl text-gray-800 font-extrabold text-center mb-12">

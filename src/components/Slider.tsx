@@ -17,7 +17,7 @@ export const Slider = () => {
   });
 
   return (
-    <>
+    <div className="mb-6">
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1"></div>
@@ -64,7 +64,7 @@ export const Slider = () => {
           )}
         </div>
       )}
-    </>
+    </div>
   );
 };
 
