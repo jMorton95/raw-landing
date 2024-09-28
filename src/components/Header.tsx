@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "/logo.png";
 
 export const Header = () => {
   const [navExpanded, setNavExpanded] = useState<boolean>(false);
@@ -6,7 +7,7 @@ export const Header = () => {
     <header className="flex border-b py-4 px-4 sm:px-10 bg-white font-sans min-h-[70px] tracking-wide relative z-50">
       <div className="flex flex-wrap items-center gap-4 w-full">
         <a href="javascript:void(0)">
-          <img src={"/logo.png"} alt="logo" className="w-36" />
+          <img src={Logo} alt="logo" className="w-36" />
         </a>
 
         <div

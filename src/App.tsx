@@ -4,7 +4,7 @@ import { Home } from "@/pages/Home";
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/raw-landing">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
