@@ -1,5 +1,7 @@
 rm -rf dist
 
+npm install
+
 npm run build
 
 git checkout gh-pages
