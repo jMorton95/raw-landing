@@ -32,19 +32,19 @@
 }
 
 .number-slide1 {
-  background-image: url("images/1.webp");
+  background-image: url("/1.webp");
 }
 
 .number-slide2 {
-  background-image: url("images/2.webp");
+  background-image: url("/2.webp");
 }
 
 .number-slide3 {
-  background-image: url("images/3.webp");
+  background-image: url("/3.webp");
 }
 
 .number-slide4 {
-  background-image: url("images/4.webp");
+  background-image: url("/4.webp");
 }
 
 .navigation-wrapper {
