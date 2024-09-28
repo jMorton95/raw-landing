@@ -2,7 +2,7 @@ rm -rf dist
 
 npm run build
 
-git checkout -b gh-pages
+git checkout gh-pages
 
 rm index.html
 
