@@ -17,7 +17,7 @@ export const Slider = () => {
   });
 
   return (
-    <div className="mb-6">
+    <div className="mb-2">
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1"></div>
@@ -48,7 +48,7 @@ export const Slider = () => {
         )}
       </div>
       {loaded && instanceRef.current && (
-        <div className="dots">
+        <div className="dots mt-2">
           {[...Array(instanceRef.current.track.details.slides.length)].map(
             (_, idx) => {
               return (

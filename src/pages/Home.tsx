@@ -1,11 +1,9 @@
-import { Faqs } from "@/components/Faqs";
-import { Testimonials } from "@/components/Testimonials";
+import { ContentBody } from "@/components/ContentBody";
 
 export const Home = () => {
   return (
     <>
-      <Faqs />
-      <Testimonials />
+      <ContentBody />
     </>
   );
 };
