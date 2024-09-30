@@ -18,6 +18,9 @@ dist
 
 # Mono auto generated files
 mono_crash.*
+cert.txt
+csr.txt
+pk.txt
 
 # Build results
 [Dd]ebug/
