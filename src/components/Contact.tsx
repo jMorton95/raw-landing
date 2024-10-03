@@ -1,4 +1,37 @@
+import { useState } from "react";
+
+type ContactForm = {
+  name: string;
+  email: string;
+  phoneNumber: string;
+  message: string;
+};
+
 export const Contact = () => {
+  const [formState, setFormState] = useState<ContactForm>({
+    name: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
+
+  const handleFormStateUpdate = (key: keyof ContactForm, value: string) => {
+    setFormState((prevState) => {
+      return {
+        ...prevState,
+        [key]: value,
+      };
+    });
+  };
+
+  const handleSubmission = () => {
+    const subject = `Name: ${formState.name} - Email: ${formState.email} - Phone Number: ${formState.phoneNumber}`;
+
+    window.location.href = `mailto:${
+      import.meta.env.VITE_EMAIL
+    }?subject=${subject}&body=${formState.message}`;
+  };
+
   return (
     <div
       id="contact"
@@ -10,16 +43,13 @@ export const Contact = () => {
         </h2>
 
         <div className="grid lg:grid-cols-2 items-start gap-12">
-          <form
-            action={`mailto:${import.meta.env.VITE_EMAIL}`}
-            method="POST"
-            encType="text/plain"
-            className="space-y-3 text-gray-800"
-          >
+          <div className="space-y-3 text-gray-800">
             <input
               type="text"
               placeholder="Name"
               id="name"
+              value={formState.name}
+              onChange={(e) => handleFormStateUpdate("name", e.target.value)}
               required
               name="name"
               className="w-full bg-gray-100 rounded py-3 px-6 text-sm focus:bg-transparent focus:outline-blue-600"
@@ -28,6 +58,8 @@ export const Contact = () => {
               type="email"
               id="email"
               placeholder="Email"
+              value={formState.email}
+              onChange={(e) => handleFormStateUpdate("email", e.target.value)}
               required
               name="email"
               className="w-full bg-gray-100 rounded py-3 px-6 text-sm focus:bg-transparent focus:outline-blue-600"
@@ -36,6 +68,10 @@ export const Contact = () => {
               type="text"
               id="phone"
               placeholder="Phone No."
+              value={formState.phoneNumber}
+              onChange={(e) =>
+                handleFormStateUpdate("phoneNumber", e.target.value)
+              }
               required
               name="phone"
               className="w-full bg-gray-100 rounded py-3 px-6 text-sm focus:bg-transparent focus:outline-blue-600"
@@ -45,16 +81,19 @@ export const Contact = () => {
               id="message"
               placeholder="Message"
               name="message"
+              value={formState.message}
+              onChange={(e) => handleFormStateUpdate("message", e.target.value)}
               rows={6}
               className="w-full bg-gray-100 rounded px-6 text-sm pt-3 focus:bg-transparent focus:outline-blue-600"
             ></textarea>
             <button
-              type="submit"
+              type="button"
+              onClick={handleSubmission}
               className="text-white bg-blue-600 hover:bg-blue-700 rounded text-sm px-6 py-3 !mt-6"
             >
               Send Message
             </button>
-          </form>
+          </div>
 
           <div className="grid sm:grid-cols-2  gap-12">
             <div className="flex items-start bg-white">
