@@ -12,6 +12,7 @@ dist
 *.user
 *.userosscache
 *.sln.docstates
+.vite/*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

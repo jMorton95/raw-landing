@@ -101,11 +101,11 @@ export const Contact = () => {
               </button>
             </div>
 
-            <div
-              onClick={() => setLocationModalOpen(true)}
-              className="grid sm:grid-cols-2  gap-10 cursor-pointer"
-            >
-              <div className="flex items-start bg-white">
+            <div className="grid sm:grid-cols-2  gap-10 cursor-pointer">
+              <div
+                onClick={() => setLocationModalOpen(true)}
+                className="flex items-start bg-white"
+              >
                 <div className="shadow-[0_0px_2px_0px_rgba(6,81,237,0.3)] rounded px-3 py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
