@@ -1,0 +1,28 @@
+Requirements:
+
+Easy data entry to populate eBay product links
+
+Fill in content pages with desired text
+	Bring in some content from Rawengineering.org
+
+
+We Buy your workshop page?
+	Description of business / service section
+	Desired products to purchase page
+	Contact
+
+
+Ebay product listing page?
+	Product list / description of item + contact info to increase click through rate / image / prices
+	
+
+Ebay API
+
+
+
+type productListing = {
+	name: string;
+	description: string;
+	imageUrl: string;
+	price: number;
+}
