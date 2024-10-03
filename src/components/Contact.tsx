@@ -132,12 +132,7 @@ export const Contact = () => {
                   </p>
                 </div>
               </div>
-
-              <a
-                href="https://wa.me/4407961695562"
-                rel="noopener"
-                target="_blank"
-              >
+              <a href={import.meta.env.VITE_WA} rel="noopener" target="_blank">
                 <div className="flex items-start bg-white">
                   <div className="shadow-[0_0px_2px_0px_rgba(6,81,237,0.3)] rounded px-3 py-2">
                     <svg
