@@ -1,9 +1,9 @@
-import { ContentBody } from "@/components/ContentBody";
+import { WorkshopPurchaseContentBody } from "@/components/WorkshopPurchaseContentBody";
 
 export const Home = () => {
   return (
     <>
-      <ContentBody />
+      <WorkshopPurchaseContentBody />
     </>
   );
 };

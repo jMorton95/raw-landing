@@ -28,10 +28,11 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="javascript:void(0)"
+                  href={import.meta.env.VITE_EBAY}
+                  target="_blank"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
-                  Web Development
+                  Online Store
                 </a>
               </li>
               <li>
@@ -39,7 +40,7 @@ export const Footer = () => {
                   href="javascript:void(0)"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
-                  Mobile App Development
+                  Bulk Workshop Purchase
                 </a>
               </li>
               <li>
@@ -66,10 +67,26 @@ export const Footer = () => {
               Contact Us
             </h4>
             <ul className="space-y-4">
-              <li className="text-gray-400 text-base">123 Main Street</li>
-              <li className="text-gray-400 text-base">City, State, Country</li>
-              <li className="text-gray-400 text-base">contact@example.com</li>
-              <li className="text-gray-400 text-base">+1 234 567 890</li>
+              <li className="text-gray-400 text-base">
+                Wakefield, West Yorkshire
+              </li>
+              <li className="text-gray-400 text-base">
+                England, United Kingdom
+              </li>
+              <li className="text-gray-400 text-base">
+                <a href={`mailto:${import.meta.env.VITE_EMAIL}`}>
+                  {import.meta.env.VITE_EMAIL}
+                </a>
+              </li>
+              <li className="text-gray-400 text-base">
+                <a
+                  href="https://wa.me/4407961695562"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  +44 7961 695562
+                </a>
+              </li>
             </ul>
           </div>
 

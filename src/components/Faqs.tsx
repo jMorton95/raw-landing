@@ -52,7 +52,7 @@ const RenderableFaqs: FaqData[] = [
 
 export const Faqs = () => {
   return (
-    <div className="font-[sans-serif] divide-y rounded-lg max-w-7xl mx-auto px-4 my-16">
+    <div className="font-[sans-serif] divide-y rounded-lg max-w-6xl mx-auto px-4 my-16">
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-gray-800">
           Frequently asked questions
