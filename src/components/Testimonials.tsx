@@ -1,3 +1,17 @@
+type Testimonial = {
+  name: string;
+  testimonial: string;
+  starRating: 1 | 2 | 3 | 4 | 5;
+};
+
+const TestimonialList: Testimonial[] = [
+  {
+    name: "",
+    testimonial: "",
+    starRating: 5,
+  },
+];
+
 export const Testimonials = () => {
   return (
     <div className="my-6 mb-12 font-[sans-serif]">
