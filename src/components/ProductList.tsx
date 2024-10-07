@@ -24,9 +24,9 @@ export const ProductList = () => {
                 key={i}
                 className="bg-gray-50 shadow-md overflow-hidden rounded-lg cursor-pointer hover:-translate-y-2 transition-all relative"
               >
-                <div className="w-5/6 h-[260px] p-4 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
+                <div className="w-full h-[260px] p-4 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
                   <img
-                    src="https://readymadeui.com/images/product9.webp"
+                    src={x.image}
                     alt={x.name}
                     className="h-full w-full object-contain"
                   />
