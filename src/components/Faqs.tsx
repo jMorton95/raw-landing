@@ -58,8 +58,13 @@ export const Faqs = () => {
           Frequently asked questions
         </h2>
       </div>
-      {RenderableFaqs.map((faq) => (
-        <Faq text={faq.text} content={faq.content} startOpen={faq.startOpen} />
+      {RenderableFaqs.map((faq, index) => (
+        <Faq
+          key={index}
+          text={faq.text}
+          content={faq.content}
+          startOpen={faq.startOpen}
+        />
       ))}
     </div>
   );

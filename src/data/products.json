@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lathe",
+    "description": "Does lathe things",
+    "price": 345.99,
+    "image": "lathe.png",
+    "link": "https://www.google.com"
+  },
+  {
+    "name": "Lathe",
+    "description": "Does lathe things",
+    "price": 345.99,
+    "image": "lathe.png",
+    "link": "https://www.google.com"
+  },
+  {
+    "name": "Lathe",
+    "description": "Does lathe things",
+    "price": 345.99,
+    "image": "lathe.png",
+    "link": "https://www.google.com"
+  },
+  {
+    "name": "Lathe",
+    "description": "Does lathe things",
+    "price": 345.99,
+    "image": "lathe.png",
+    "link": "https://www.google.com"
+  },
+  {
+    "name": "Lathe",
+    "description": "Does lathe things",
+    "price": 345.99,
+    "image": "lathe.png",
+    "link": "https://www.google.com"
+  }
+]

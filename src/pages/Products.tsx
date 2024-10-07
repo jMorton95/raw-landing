@@ -1,7 +1,9 @@
+import { ProductList } from "@/components/ProductList";
+
 export const Products = () => {
   return (
     <>
-      <div>Products</div>
+      <ProductList />
     </>
   );
 };
