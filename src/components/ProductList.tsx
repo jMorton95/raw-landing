@@ -19,7 +19,12 @@ export const ProductList = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((x, i) => {
           return (
-            <a href={x.link} target="_blank" rel="noopener">
+            <a
+              href={x.link}
+              target="_blank"
+              rel="noopener"
+              className={`${i > 5 ? "max-[400px]:hidden" : ""}`}
+            >
               <div
                 key={i}
                 className="bg-gray-50 shadow-md overflow-hidden rounded-lg cursor-pointer hover:-translate-y-2 transition-all relative"

@@ -40,7 +40,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="javascript:void(0)"
+                  href="/#workshop-purchase"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
                   Workshop Purchasing
@@ -92,13 +92,13 @@ export const Footer = () => {
             </h4>
             <ul className="flex items-center flex-wrap gap-y-3 space-x-6">
               <li>
-                <a href="javascript:void(0)">
+                <a href={import.meta.env.VITE_WA}>
                   <img className="h-8 w-8" src={WhatsApp} />
                 </a>
               </li>
 
               <li>
-                <a href="javascript:void(0)">
+                <a href={import.meta.env.VITE_EBAY}>
                   <img className="h-7 w-7" src={Ebay} />
                 </a>
               </li>
