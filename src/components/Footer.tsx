@@ -55,6 +55,14 @@ export const Footer = () => {
                   Ebay Retailer
                 </a>
               </li>
+              <li>
+                <a
+                  href="/terms-and-conditions"
+                  className="text-gray-400 hover:text-gray-300 text-base"
+                >
+                  Terms and Conditions
+                </a>
+              </li>
             </ul>
           </div>
 

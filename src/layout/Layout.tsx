@@ -1,5 +1,3 @@
-import { Contact } from "@/components/Contact";
-import { Faqs } from "@/components/Faqs";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Slider } from "@/components/Slider";
@@ -13,10 +11,6 @@ export const Layout = () => {
       <Slider />
 
       <Outlet />
-
-      <Contact />
-
-      <Faqs />
 
       <Footer />
     </>
