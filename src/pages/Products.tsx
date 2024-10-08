@@ -1,5 +1,4 @@
 import { Contact } from "@/components/Contact";
-import { Faqs } from "@/components/Faqs";
 import { ProductList } from "@/components/ProductList";
 import { Testimonials } from "@/components/Testimonials";
 import productTestimonials from "@/data/productTestimonials.json";
@@ -18,7 +17,7 @@ export const Products = () => {
 
       <Contact />
 
-      <Faqs />
+      {/* <Faqs /> */}
     </>
   );
 };

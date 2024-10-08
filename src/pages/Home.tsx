@@ -1,5 +1,4 @@
 import { Contact } from "@/components/Contact";
-import { Faqs } from "@/components/Faqs";
 import { Testimonials } from "@/components/Testimonials";
 import { WorkshopPurchaseContentBody } from "@/components/WorkshopPurchaseContentBody";
 import workshopTestimonial from "@/data/workshopTestimonial.json";
@@ -16,8 +15,6 @@ export const Home = () => {
       />
 
       <Contact />
-
-      <Faqs />
     </>
   );
 };
