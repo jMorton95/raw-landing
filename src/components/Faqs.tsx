@@ -52,21 +52,24 @@ const RenderableFaqs: FaqData[] = [
 
 export const Faqs = () => {
   return (
-    <div className="font-[sans-serif] divide-y rounded-lg max-w-6xl mx-auto px-4 my-16">
-      <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-800">
-          Frequently asked questions
-        </h2>
+    <>
+      <hr color="#e5e7eb" className="mb-2 mt-2 h-1/4 mx-auto w-[100%]" />
+      <div className="font-[sans-serif] divide-y rounded-lg max-w-6xl mx-auto px-4 my-16">
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-gray-800">
+            Frequently asked questions
+          </h2>
+        </div>
+        {RenderableFaqs.map((faq, index) => (
+          <Faq
+            key={index}
+            text={faq.text}
+            content={faq.content}
+            startOpen={faq.startOpen}
+          />
+        ))}
       </div>
-      {RenderableFaqs.map((faq, index) => (
-        <Faq
-          key={index}
-          text={faq.text}
-          content={faq.content}
-          startOpen={faq.startOpen}
-        />
-      ))}
-    </div>
+    </>
   );
 };
 

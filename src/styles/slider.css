@@ -27,7 +27,7 @@
 @media (min-width: 480px) {
   [class^="number-slide"],
   [class*=" number-slide"] {
-    height: 600px;
+    height: 480px;
   }
 }
 

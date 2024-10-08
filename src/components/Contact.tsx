@@ -37,6 +37,7 @@ export const Contact = () => {
 
   return (
     <>
+      <hr color="#e5e7eb" className="mb-2 mt-2 h-1/4 mx-auto w-[100%]" />
       <div
         id="contact"
         className="font-[sans-serif] max-w-6xl max-lg:max-w-3xl mx-auto p-4 my-12 mb-24"
