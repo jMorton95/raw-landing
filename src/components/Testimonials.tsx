@@ -19,7 +19,7 @@ export const Testimonials = (props: {
           {props.testimonialList.map((x, i) => (
             <div
               key={i}
-              className="w-full p-6 rounded-lg mx-auto shadow-[0_4px_14px_-6px_rgba(93,96,127,0.4)] bg-white relative pt-12"
+              className="w-full flex flex-col justify-between p-6 rounded-lg mx-auto shadow-[0_4px_14px_-6px_rgba(93,96,127,0.4)] bg-white relative pt-12"
             >
               <div className="mt-6 text-center">
                 <p className="text-sm text-gray-800 leading-relaxed">
