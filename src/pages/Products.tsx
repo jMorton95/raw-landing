@@ -16,8 +16,6 @@ export const Products = () => {
       />
 
       <Contact />
-
-      {/* <Faqs /> */}
     </>
   );
 };
