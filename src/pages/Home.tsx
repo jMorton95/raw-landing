@@ -9,6 +9,7 @@ export const Home = () => {
   return (
     <>
       <WorkshopPurchaseContentBody />
+
       <Testimonials
         contentText={"Service Reviews"}
         testimonialList={testimonialList}

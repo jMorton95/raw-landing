@@ -5,18 +5,6 @@ export const Footer = () => {
   return (
     <footer className="bg-gray-800 py-8 px-8 font-[sans-serif] tracking-wide mt-16">
       <div className="relative">
-        <div className="bg-blue-600 gap-3 rounded-md flex items-center sm:px-12 max-sm:px-4 py-4 absolute top-[-66px] w-full">
-          <h6 className="text-white sm:text-xl max-sm:text-sm font-semibold">
-            Get in touch today
-          </h6>
-          <a
-            href={`mailto:${import.meta.env.VITE_EMAIL}`}
-            className="sm:px-4 max-sm:px-2 py-2 sm:text-sm max-sm:text-xs rounded-full text-blue-600 gap-2 bg-white ml-auto"
-          >
-            Contact us
-          </a>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 pt-10">
           <div>
             <h4 className="text-xl font-semibold mb-6 text-white">About Us</h4>
