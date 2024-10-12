@@ -45,34 +45,6 @@ export const WorkshopPurchaseContentBody = () => {
           </div>
           <div>
             <h3 className="mt-4 text-lg font-bold text-gray-800">
-              Advertise your unwanted/wanted workshop items for free
-            </h3>
-            <div className="mt-4">
-              <p className="text-gray-500 text-sm">
-                Sell your unwanted workshop items for free, keep your listing on
-                our site for as long as you need at absolutely no cost to you,
-                just email{" "}
-                <a
-                  className="font-bold text-[#7aa271]"
-                  href={`mailto:${import.meta.env.VITE_EMAIL}`}
-                >
-                  rawengineering01@gmail.com
-                </a>{" "}
-                with your advert and leave the rest to us. Alternatively if you
-                are looking for a machine or simply some advice we will also
-                publish this for free, just{" "}
-                <a
-                  className="font-bold text-[#7aa271]"
-                  href={`mailto:${import.meta.env.VITE_EMAIL}`}
-                >
-                  email
-                </a>{" "}
-                with your requirements.
-              </p>
-            </div>
-          </div>
-          <div>
-            <h3 className="mt-4 text-lg font-bold text-gray-800">
               Engineering Projects
             </h3>
             <div className="mt-4">
