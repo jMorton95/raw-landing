@@ -84,7 +84,8 @@ export const ProductList = () => {
 
                   <div className="flex gap-2 mt-4">
                     <h3 className="text-lg font-bold text-gray-800">
-                      For £{x.price * import.meta.env.VITE_DISCOUNT}
+                      For £
+                      {(x.price * import.meta.env.VITE_DISCOUNT).toFixed(2)}
                     </h3>
                     <h4 className="text-lg font-bold text-gray-800">call</h4>
                     <a
