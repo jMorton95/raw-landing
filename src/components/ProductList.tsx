@@ -56,9 +56,7 @@ export const ProductList = () => {
             return (
               <div
                 key={i}
-                className={`bg-white shadow-md overflow-hidden rounded-lg hover:-translate-y-2 transition-all relative ${
-                  i > 5 ? "max-[400px]:hidden" : ""
-                }`}
+                className={`bg-white shadow-md overflow-hidden rounded-lg hover:-translate-y-2 transition-all relative`}
               >
                 <div className="w-full cursor-pointer h-[260px] p-0 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
                   <a href={x.link} target="_blank" rel="noopener">
