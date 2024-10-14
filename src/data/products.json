@@ -88,7 +88,7 @@
     "category": "part"
   },
   {
-    "name": "Raglan little John Mk1 Mk2 cross slide swarf guard and apron part",
+    "name": "Raglan little John Mk1 Mk2",
     "description": "Raglan little John Mk1 Mk2 cross slide swarf guard and apron part, both need cleaning",
     "price": 45.0,
     "image": "littlejohn.webp",
@@ -96,7 +96,7 @@
     "category": "part"
   },
   {
-    "name": "Smoke Grey (blue hint) machine paint 1ltr match to BOXFORD AUD BUD CUD shade",
+    "name": "BOXFORD Smoke Grey (blue hint) 1ltr",
     "description": "Smoke Grey (blue hint) machine paint 1ltr match to BOXFORD AUD BUD CUD shade lathes, we use this paint for all our refurbished Boxford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
     "price": 30.0,
     "image": "smokegrey.webp",
@@ -141,7 +141,7 @@
     "price": 12.5,
     "image": "oilsuit.webp",
     "link": "https://www.ebay.co.uk/itm/184718824887",
-    "category": "part"
+    "category": "oil"
   },
   {
     "name": "Lathe oil H32 suit Myford lathe users and other makes of lathe",
@@ -149,7 +149,7 @@
     "price": 12.5,
     "image": "h32.webp",
     "link": "https://www.ebay.co.uk/itm/184800710949",
-    "category": "part"
+    "category": "oil"
   },
   {
     "name": "Primary and Secondary drive belts for Myford ML7 lathes BRAND NEW",
@@ -168,7 +168,7 @@
     "category": "part"
   },
   {
-    "name": "New resilient mounted motor for Myford ML7 ML10 lathes 1/2 HP 240volts",
+    "name": "Motor for Myford ML7 ML10 lathes 1/2 HP 240volts",
     "description": "Brand new in the box one resilient mounted 1/2HP motor for the Myford ML7 ML10 (NOT ML7R) lathes, comes with one year manufactures guarantee, frame size B56, 240VOLTS SINGLE PHASE, shaft size 5/8\" 15.88mm, shaft length 2\" apx",
     "price": 265.0,
     "image": "motor1phase.webp",
@@ -176,12 +176,12 @@
     "category": "part"
   },
   {
-    "name": "Lathe oil H32 1ltr suit Myford lathe users and other makes of lathe SUPER DEAL",
+    "name": "Lathe oil H32 1ltr suit Myford",
     "description": "Lathe oil H32 suit Myford lathe user and other makes of lathes, 1ltr bottle, easy to decant into an oil can",
     "price": 17.0,
     "image": "h321l.webp",
     "link": "https://www.ebay.co.uk/itm/185609017258",
-    "category": "part"
+    "category": "oil"
   },
   {
     "name": "Green machine paint 500ML match to Myford super7 and 254 shade",
@@ -208,12 +208,12 @@
     "category": "part"
   },
   {
-    "name": "H32 Oil and Slideway Oil compatible with Myford lathes Super7 ML7 ML10 SAVE 15%",
+    "name": "H32 Oil and Slideway Oil",
     "description": "H32 Oil 500ml and Slideway Oil 500ml compatible with Myford lathes Super7 ML7 ML10 MEGA DEAL, SAVE 15% BY BUYING TOGETHER ",
     "price": 18.0,
     "image": "oildeal.webp",
     "link": "https://www.ebay.co.uk/itm/185286610677",
-    "category": "part"
+    "category": "oil"
   },
   {
     "name": "Myford ML10 MK2 Motor to Countershaft belt cover with fixing",
@@ -384,19 +384,19 @@
     "category": "part"
   },
   {
-    "name": "Lathe/milling machine Slideway 68 slide ways oil suit Chester lathes and mills",
+    "name": "Chester suited Lathe/milling machine Slideway oil 68",
     "description": "Lathe/milling machine Slideway 68 slide ways oil suit Chester lathes and mills",
     "price": 12.5,
     "image": "chesterslideway.webp",
     "link": "https://www.ebay.co.uk/itm/186129164495",
-    "category": "part"
+    "category": "oil"
   },
   {
-    "name": "Lathe/milling machine Slideway 68 slide ways oil suit Warco lathes and mills",
+    "name": "Warco suited Lathe/milling machine Slideway oil 68",
     "description": "Lathe/milling machine Slideway 68 slide ways oil suit Warco lathes and mills",
     "price": 12.5,
     "image": "chesterslideway.webp",
     "link": "https://www.ebay.co.uk/itm/185447368837",
-    "category": "part"
+    "category": "oil"
   }
 ]
