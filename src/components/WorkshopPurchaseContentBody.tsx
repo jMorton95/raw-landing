@@ -3,7 +3,7 @@ export const WorkshopPurchaseContentBody = () => {
     <>
       <hr color="#e5e7eb" className="mb-2 mt-2 h-1/4 mx-auto w-[100%]" />
       <div id="workshop-purchase" className="p-4 font-sans">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div>
             <h2 className="text-3xl font-extrabold text-gray-800">
               Products and Services
@@ -35,7 +35,7 @@ export const WorkshopPurchaseContentBody = () => {
                   for you at a cost your pocket will like.
                 </p>
                 <a
-                  href="/products"
+                  href="#products"
                   className="font-black text-[#7aa271] text-sm mt-6"
                 >
                   Browse our products

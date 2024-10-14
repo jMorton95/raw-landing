@@ -1,11 +1,14 @@
 import productJson from "@/data/products.json";
 
+type Category = "machine" | "part" | string;
+
 type Product = {
   name: string;
   description: string;
   price: number;
   image: string;
   link: string;
+  category: Category;
 };
 
 export const ProductList = () => {
@@ -14,42 +17,72 @@ export const ProductList = () => {
     <>
       <hr color="#e5e7eb" className="mb-2 mt-2 h-1/4 mx-auto w-[100%]" />
 
-      <div className="font-[sans-serif] py-4 mx-auto lg:max-w-7xl sm:max-w-full">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-12">
-          Lathes, Milling Machines & Replacements
+      <div
+        id="products"
+        className="font-[sans-serif] py-4 px-4 mx-auto lg:max-w-[95rem] sm:max-w-full"
+      >
+        <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+          Machines & Replacements
         </h2>
+        <h3 className="text-2xl font-bold text-gray-600 mb-6">
+          5% Discount applies if you call us directly at{" "}
+          <a
+            className="text-2xl font-bold mb-6 text-main"
+            href={`tel:${import.meta.env.VITE_TELEPHONE}`}
+          >
+            {import.meta.env.VITE_PHONE}
+          </a>
+        </h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {products.map((x, i) => {
-            return (
-              <a
-                href={x.link}
-                target="_blank"
-                rel="noopener"
-                className={`${i > 5 ? "max-[400px]:hidden" : ""}`}
-              >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {products
+            .sort((a) => (a.category === "machine" ? -1 : 1))
+            .map((x, i) => {
+              return (
                 <div
                   key={i}
-                  className="bg-gray-50 shadow-md overflow-hidden rounded-lg cursor-pointer hover:-translate-y-2 transition-all relative"
+                  className={`bg-gray-50 shadow-md overflow-hidden rounded-lg hover:-translate-y-2 transition-all relative ${
+                    i > 5 ? "max-[400px]:hidden" : ""
+                  }`}
                 >
-                  <div className="w-full h-[260px] p-4 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-                    <img
-                      src={x.image}
-                      alt={x.name}
-                      className="h-full w-full object-contain"
-                    />
+                  <div className="w-full cursor-pointer h-[260px] p-0 overflow-hidden mx-auto aspect-w-16 aspect-h-8">
+                    <a href={x.link} target="_blank" rel="noopener">
+                      <img
+                        src={x.image}
+                        alt={x.name}
+                        className="h-full w-full object-contain"
+                      />
+                    </a>
                   </div>
 
                   <div className="p-6 bg-white">
-                    <h3 className="text-lg font-bold text-gray-800">
-                      {x.name}
-                    </h3>
-                    <h4 className="text-lg text-gray-800 font-bold mt-2">
-                      £{x.price}
-                    </h4>
-                    <p className="text-gray-600 text-sm mt-2">
+                    <div className="flex gap-4">
+                      <h4 className="text-lg font-bold text-gray-800">
+                        £{x.price}
+                      </h4>
+
+                      <h4 className="text-lg font-bold text-gray-800"></h4>
+
+                      <h3 className="text-lg font-bold text-gray-800">
+                        {x.name}
+                      </h3>
+                    </div>
+                    <p className="text-gray-600 text-sm mt-4">
                       {x.description}
                     </p>
+
+                    <div className="flex gap-2 mt-4">
+                      <h3 className="text-lg font-bold text-gray-800">
+                        £{x.price * import.meta.env.VITE_DISCOUNT}
+                      </h3>
+                      <h4 className="text-lg font-bold text-gray-800">call</h4>
+                      <a
+                        href={`tel:${import.meta.env.VITE_TELEPHONE}`}
+                        className="text-lg font-bold text-main"
+                      >
+                        {import.meta.env.VITE_PHONE}
+                      </a>
+                    </div>
 
                     <div className="flex space-x-2 mt-4">
                       <svg
@@ -95,9 +128,8 @@ export const ProductList = () => {
                     </div>
                   </div>
                 </div>
-              </a>
-            );
-          })}
+              );
+            })}
         </div>
       </div>
     </>

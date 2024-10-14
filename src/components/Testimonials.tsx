@@ -15,11 +15,11 @@ export const Testimonials = (props: {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl max-md:gap-16 max-md:max-w-lg mx-auto mt-12">
+        <div className="grid sm:grid-cols-2 sm:gap-2 md:grid-cols-3 md:gap-6 max-w-6xl max-md:gap-4 max-md:max-w-lg mx-auto mt-12">
           {props.testimonialList.map((x, i) => (
             <div
               key={i}
-              className="w-full flex flex-col justify-between p-6 rounded-lg mx-auto shadow-[0_4px_14px_-6px_rgba(93,96,127,0.4)] bg-white relative pt-12"
+              className="md:w-full flex flex-col justify-between rounded-lg mx-auto shadow-[0_4px_14px_-6px_rgba(93,96,127,0.4)] bg-white relative p-6 pt-4 md:pt-12"
             >
               <div className="mt-6 text-center">
                 <p className="text-sm text-gray-800 leading-relaxed">

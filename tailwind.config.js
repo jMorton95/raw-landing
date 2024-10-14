@@ -3,9 +3,9 @@ export default {
   content: ["index.html", "./src/**/*.{html,js,jsx,tsx}"],
   theme: {
     extend: {
-      screens: {
-        
-      }
+     colors: {
+      "main": "#7aa271"
+     }
     },
   },
   plugins: [],

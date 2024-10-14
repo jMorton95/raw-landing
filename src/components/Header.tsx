@@ -46,15 +46,15 @@ export const Header = () => {
                   href="/#workshop-purchase"
                   className="hover:text-[#007bff] text-gray-600 block font-bold text-[15px]"
                 >
-                  Workshop Purchase
+                  Services
                 </a>
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <a
-                  href="/products"
+                  href="/#products"
                   className="hover:text-[#007bff] text-gray-600 block font-bold text-[15px]"
                 >
-                  Online Store
+                  Store
                 </a>
               </li>
 

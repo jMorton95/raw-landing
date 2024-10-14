@@ -1,58 +1,58 @@
 [
   {
-    "name": "Myford ML7 lathe",
-    "description": "Myford ML7 Lathe in clean condition PART EXCHANGE",
-    "price": 850.0,
-    "image": "ml7.webp",
-    "link": "https://www.ebay.co.uk/itm/186712293029"
-  },
-  {
     "name": "ML7R Motor",
     "description": "New resilient mounted motor for Myford Super 7 ML7R lathes 3/4HP 240volts",
     "price": 295.0,
     "image": "ml7rmotor.webp",
-    "link": "https://www.ebay.co.uk/itm/186288324493"
+    "link": "https://www.ebay.co.uk/itm/186288324493",
+    "category": "part"
   },
   {
     "name": "MT2 Collet Set",
     "description": "Collet set MT2 Metric M10 Thread 8 collets BRAND NEW IN BOX lathe or mill",
     "price": 50.0,
     "image": "mt2collet.webp",
-    "link": "https://www.ebay.co.uk/itm/186338878068"
+    "link": "https://www.ebay.co.uk/itm/186338878068",
+    "category": "part"
   },
   {
     "name": "ML7R Motor",
     "description": "New resilient mounted motor for Myford Super 7 ML7R lathes 1HP 240volts",
     "price": 325.0,
     "image": "motor1hp.webp",
-    "link": "https://www.ebay.co.uk/itm/186426582767"
+    "link": "https://www.ebay.co.uk/itm/186426582767",
+    "category": "part"
+  },
+  {
+    "name": "Myford ML7 lathe",
+    "description": "Myford ML7 Lathe in clean condition PART EXCHANGE",
+    "price": 850.0,
+    "image": "ml7.webp",
+    "link": "https://www.ebay.co.uk/itm/186712293029",
+    "category": "machine"
   },
   {
     "name": "ML7 Rack",
     "description": "Myford ML7 Rack operated with MK2 tailstock in good condition VERY RARE",
     "price": 295.0,
     "image": "ml7rack.webp",
-    "link": "https://www.ebay.co.uk/itm/186712526393"
-  },
-  {
-    "name": "Macalister  Wood Lathe",
-    "description": "Macalister variable Wood Lathe with removable copy attachment and accessories",
-    "price": 285.0,
-    "image": "macalister.webp",
-    "link": "https://www.ebay.co.uk/itm/186698729973"
+    "link": "https://www.ebay.co.uk/itm/186712526393",
+    "category": "machine"
   },
   {
     "name": "Grey Machine Paint",
     "description": "Grey machine paint 400ML SPRAY RATTLE CAN to match Myford super7 and ML7 shade",
     "price": 25.0,
     "image": "paint.webp",
-    "link": "https://www.ebay.co.uk/itm/185795311344"
+    "link": "https://www.ebay.co.uk/itm/185795311344",
+    "category": "part"
   },
   {
     "name": "ML7 ML10 Motor",
     "description": "New resilient mounted motor for Myford ML7 ML10 lathes 0.5HP 415volts 3Phase",
     "price": 235.0,
     "image": "ml10motor.webp",
-    "link": "https://www.ebay.co.uk/itm/185784672916"
+    "link": "https://www.ebay.co.uk/itm/185784672916",
+    "category": "part"
   }
 ]

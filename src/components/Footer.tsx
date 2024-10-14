@@ -20,7 +20,7 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="/products"
+                  href="#products"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
                   Online Store
