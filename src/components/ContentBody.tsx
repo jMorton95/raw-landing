@@ -1,6 +1,6 @@
 export const ContentBody = () => {
   return (
-    <div className="bg-white mt-12 p-8 font-[sans-serif]">
+    <div id="services" className="bg-white mt-12 p-8 font-[sans-serif]">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-gray-800 text-4xl font-extrabold relative after:absolute after:-bottom-5 after:h-1 after:w-1/2 after:bg-main after:left-0 after:right-0 after:mx-auto after:rounded-full">
           Our services

@@ -28,7 +28,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/#workshop-purchase"
+                  href="/#services"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
                   Workshop Purchasing

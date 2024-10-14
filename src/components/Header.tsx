@@ -4,7 +4,7 @@ import Logo from "/logo.png";
 export const Header = () => {
   const [navExpanded, setNavExpanded] = useState<boolean>(false);
   return (
-    <header className="flex border-b py-4 px-4 sm:px-10 bg-white font-sans min-h-[50px] tracking-wide relative z-50">
+    <header className="flex border-b py-4 px-4 sm:px-10 bg-white font-sans min-h-[50px] tracking-wide relative z-50 max-md:sticky max-md:top-0">
       <div className="flex flex-wrap items-center gap-4 w-full">
         <a href="/">
           <img src={Logo} alt="logo" className="w-20" />
@@ -43,7 +43,11 @@ export const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <a
-                  href="/#workshop-purchase"
+                  href="/#services"
+                  onClick={() => {
+                    setNavExpanded(false);
+                    window.location.href = "/#services";
+                  }}
                   className="hover:text-[#007bff] text-gray-600 block font-bold text-[15px]"
                 >
                   Services
@@ -52,6 +56,10 @@ export const Header = () => {
               <li className="max-lg:border-b max-lg:py-3">
                 <a
                   href="/#products"
+                  onClick={() => {
+                    setNavExpanded(false);
+                    window.location.href = "/#products";
+                  }}
                   className="hover:text-[#007bff] text-gray-600 block font-bold text-[15px]"
                 >
                   Store
@@ -61,6 +69,10 @@ export const Header = () => {
               <li className="max-lg:border-b max-lg:py-3">
                 <a
                   href="#contact"
+                  onClick={() => {
+                    setNavExpanded(false);
+                    window.location.href = "/#contact";
+                  }}
                   className="hover:text-[#007bff] text-gray-600 block font-bold text-[15px]"
                 >
                   Contact
