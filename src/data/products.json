@@ -32,7 +32,7 @@
     "category": "machine"
   },
   {
-    "name": "ML7 Rack",
+    "name": "ML7 Rack MK2 tailstock",
     "description": "Myford ML7 Rack operated with MK2 tailstock in good condition VERY RARE",
     "price": 295.0,
     "image": "ml7rack.webp",
@@ -45,7 +45,7 @@
     "price": 25.0,
     "image": "paint.webp",
     "link": "https://www.ebay.co.uk/itm/185795311344",
-    "category": "part"
+    "category": "paint"
   },
   {
     "name": "ML7 ML10 Motor",
@@ -53,6 +53,350 @@
     "price": 235.0,
     "image": "ml10motor.webp",
     "link": "https://www.ebay.co.uk/itm/185784672916",
+    "category": "part"
+  },
+  {
+    "name": "Myford ML7 MK2 with tri-leva attachment 240volts",
+    "description": "Myford ML7 MK2 complete with a tri-leva attachment fitted, runs well and cuts well, saddle moves up and down the bed smoothly, comes with a slimbody Burnerd 3 jaw chuck and key, thread dial indicator and cutting tools, ready to use, FREE DELIVERY IF THE BUY IT NOW PRICE IS PAID VIA CARD OVER THE PHONE OR BANK TRANSFER ",
+    "price": 850.0,
+    "image": "tri.webp",
+    "link": "https://www.ebay.co.uk/itm/186721249068",
+    "category": "machine"
+  },
+  {
+    "name": "Pratt Burnerd 4\" independent 4 Jaw chuck without a backplate",
+    "description": "Pratt Burnerd 4\" independent 4 Jaw chuck without a backplate, no damage to the jaw nuts (see pictures) jaws are sticky so could do with a service or used as spares, comes with a chuck key",
+    "price": 45.0,
+    "image": "https://www.ebay.co.uk/itm/186724083200",
+    "link": "Pratt.webp",
+    "category": "part"
+  },
+  {
+    "name": "Grey machine paint 1ltr match to Myford super7 and ML7 shade",
+    "description": "Grey machine paint 1ltr match to Myford grey for Super7 and ML7 lathes, we use this paint for all our refurbish Myford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 30.0,
+    "image": "gmp.webp",
+    "link": "https://www.ebay.co.uk/itm/185119493169",
+    "category": "paint"
+  },
+  {
+    "name": "2MT and 1MT tailstock drills suit Myford lathe user",
+    "description": "2MT and 1MT tailstock drills suit Myford lathe user, all need cleaning, what you see is what is you get",
+    "price": 20,
+    "image": "2mtdrills.webp",
+    "link": "https://www.ebay.co.uk/itm/186724124266",
+    "category": "part"
+  },
+  {
+    "name": "Raglan little John Mk1 Mk2 cross slide swarf guard and apron part",
+    "description": "Raglan little John Mk1 Mk2 cross slide swarf guard and apron part, both need cleaning",
+    "price": 45.0,
+    "image": "littlejohn.webp",
+    "link": "https://www.ebay.co.uk/itm/186724089870",
+    "category": "part"
+  },
+  {
+    "name": "Smoke Grey (blue hint) machine paint 1ltr match to BOXFORD AUD BUD CUD shade",
+    "description": "Smoke Grey (blue hint) machine paint 1ltr match to BOXFORD AUD BUD CUD shade lathes, we use this paint for all our refurbished Boxford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 30.0,
+    "image": "smokegrey.webp",
+    "link": "https://www.ebay.co.uk/itm/185457446125",
+    "category": "paint"
+  },
+  {
+    "name": "Grey machine paint 500ML match to Myford super7 and ML7 shade",
+    "description": "Grey machine paint 500ML match to Myford grey for Super7 and ML7 lathes, we use this paint for all our refurbish Myford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 22.0,
+    "image": "gmpsuper7.webp",
+    "link": "https://www.ebay.co.uk/itm/185675244995",
+    "category": "paint"
+  },
+  {
+    "name": "Green machine paint 1ltr to Match Myford super7 and 254 Lathe Color",
+    "description": "Green machine paint 1ltr similar to Myford green for Super7 and 254 lathes, we use this paint for all our refurbish Myford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 30.0,
+    "image": "greenmp.webp",
+    "link": "https://www.ebay.co.uk/itm/185119496173",
+    "category": "paint"
+  },
+  {
+    "name": "Burnerd 6\" 3 Jaw chuck for Boxford Lathes AUD BUD CUD",
+    "description": "Burnerd 6\" 3 Jaw for Boxford AUD BUD CUD lathes, needs a clean (see pictures), comes with internal and external jaws, ready to use",
+    "price": 150.0,
+    "image": "3jaw.webp",
+    "link": "https://www.ebay.co.uk/itm/186724041285",
+    "category": "part"
+  },
+  {
+    "name": "Boxford lathe splash back needs paint for AUD BUD CUD",
+    "description": "Boxford lathe splash back needs paint for AUD BUD CUD, what you see is what you get",
+    "price": 35.0,
+    "image": "guard.webp",
+    "link": "https://www.ebay.co.uk/itm/186722734824",
+    "category": "part"
+  },
+  {
+    "name": "Lathe/milling machine Slideway 68 slide ways oil suit Myford Boxford Harrison",
+    "description": "Lathe oil Slideway 68 suit lathe/milling machine user, 500ml bottle, easy to decant into an oil can",
+    "price": 12.5,
+    "image": "oilsuit.webp",
+    "link": "https://www.ebay.co.uk/itm/184718824887",
+    "category": "part"
+  },
+  {
+    "name": "Lathe oil H32 suit Myford lathe users and other makes of lathe",
+    "description": "Lathe headstock oil H32 suit Myford lathe user and other makes of lathes, 500ml bottle, easy to decant into an oil can",
+    "price": 12.5,
+    "image": "h32.webp",
+    "link": "https://www.ebay.co.uk/itm/184800710949",
+    "category": "part"
+  },
+  {
+    "name": "Primary and Secondary drive belts for Myford ML7 lathes BRAND NEW",
+    "description": "Brand new Primary and Secondary drive belts for ML7 lathes",
+    "price": 11.3,
+    "image": "drivebelt.webp",
+    "link": "https://www.ebay.co.uk/itm/185732126447",
+    "category": "part"
+  },
+  {
+    "name": "Engineer made collet system for Myford Super7 ML7 ML10 with collets",
+    "description": "Engineer made collet system for Myford Super7 ML7 ML10 with collets, works really well and very well made, the collets are very easy to make, ready to use",
+    "price": 40.0,
+    "image": "colletsystem.webp",
+    "link": "https://www.ebay.co.uk/itm/186712432905",
+    "category": "part"
+  },
+  {
+    "name": "New resilient mounted motor for Myford ML7 ML10 lathes 1/2 HP 240volts",
+    "description": "Brand new in the box one resilient mounted 1/2HP motor for the Myford ML7 ML10 (NOT ML7R) lathes, comes with one year manufactures guarantee, frame size B56, 240VOLTS SINGLE PHASE, shaft size 5/8\" 15.88mm, shaft length 2\" apx",
+    "price": 265.0,
+    "image": "motor1phase.webp",
+    "link": "https://www.ebay.co.uk/itm/186288335090",
+    "category": "part"
+  },
+  {
+    "name": "Lathe oil H32 1ltr suit Myford lathe users and other makes of lathe SUPER DEAL",
+    "description": "Lathe oil H32 suit Myford lathe user and other makes of lathes, 1ltr bottle, easy to decant into an oil can",
+    "price": 17.0,
+    "image": "h321l.webp",
+    "link": "https://www.ebay.co.uk/itm/185609017258",
+    "category": "part"
+  },
+  {
+    "name": "Green machine paint 500ML match to Myford super7 and 254 shade",
+    "description": "Green machine paint 500ML match to Myford green for Super7 and 254 lathes, we use this paint for all our refurbish Myford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 22.0,
+    "image": "gmp500ml.webp",
+    "link": "https://www.ebay.co.uk/itm/185320510710",
+    "category": "part"
+  },
+  {
+    "name": "Various castings suit Myford lathe user",
+    "description": "Various castings suit Myford lathe user, don't know what they are for, what you see is what you get ",
+    "price": 45.0,
+    "image": "castings.webp",
+    "link": "https://www.ebay.co.uk/itm/186722717677",
+    "category": "part"
+  },
+  {
+    "name": "Coolant tank for lathes or milling machines 2ft x 1ft x 10\"",
+    "description": "Coolant tank for lathes or milling machines 2ft x 1ft x 10\", the tank needs a clean but otherwise in good condition",
+    "price": 60.0,
+    "image": "coolanttank.webp",
+    "link": "https://www.ebay.co.uk/itm/186701542746",
+    "category": "part"
+  },
+  {
+    "name": "H32 Oil and Slideway Oil compatible with Myford lathes Super7 ML7 ML10 SAVE 15%",
+    "description": "H32 Oil 500ml and Slideway Oil 500ml compatible with Myford lathes Super7 ML7 ML10 MEGA DEAL, SAVE 15% BY BUYING TOGETHER ",
+    "price": 18.0,
+    "image": "oildeal.webp",
+    "link": "https://www.ebay.co.uk/itm/185286610677",
+    "category": "part"
+  },
+  {
+    "name": "Myford ML10 MK2 Motor to Countershaft belt cover with fixing",
+    "description": "Myford ML10 MK2 Motor to Countershaft belt cover with fixing, ready to use",
+    "price": 45.0,
+    "image": "countershaft.webp",
+    "link": "https://www.ebay.co.uk/itm/186712507391",
+    "category": "part"
+  },
+  {
+    "name": "Myford Catch plate with drive dog for Super 7 ML7 ML10 lathes",
+    "description": "Myford Catch plate with drive dog for Super 7 ML7 ML10 lathes, ready to use",
+    "price": 20.0,
+    "image": "catchplate.webp",
+    "link": "https://www.ebay.co.uk/itm/186722762533",
+    "category": "part"
+  },
+  {
+    "name": "Myford Leadscrew handwheel and pointer for Super 7 ML7 lathes",
+    "description": "Myford leadscrew handwheel with pointer, good chrome, ready to use",
+    "price": 30.0,
+    "image": "handwheel.webp",
+    "link": "https://www.ebay.co.uk/itm/186722757857",
+    "category": "part"
+  },
+  {
+    "name": "Green machine paint 400ML SPRAY RATTLE CAN to match Myford super7 and 254 shade",
+    "description": "Green machine paint comes in a handy 400ml rattle can for ease of use, to match Myford green for Super7 and 254 lathes, we use this paint for all our refurbish Myford's, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 25.0,
+    "image": "gmp400ml.webp",
+    "link": "https://www.ebay.co.uk/itm/185310622343",
+    "category": "paint"
+  },
+  {
+    "name": "300mm Triangle scale ruler imperial and metric markings",
+    "description": "300mm Triangle scale ruler imperial and metric markings, good quality and ready to use, (make might be different, same quality) ",
+    "price": 10.0,
+    "image": "ruler.webp",
+    "link": "https://www.ebay.co.uk/itm/185959362251",
+    "category": "part"
+  },
+  {
+    "name": "Smoke Grey (blue hint) machine paint 500ML match to BOXFORD AUD BUD CUD shade",
+    "description": "Smoke Grey (blue hint) machine paint 500ML match to BOXFORD AUD BUD CUD shade lathes, we use this paint for all our refurbished Boxford's, this paint is for brushing on, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 25.0,
+    "image": "greyhint.webp",
+    "link": "https://www.ebay.co.uk/itm/186096446275",
+    "category": "paint"
+  },
+  {
+    "name": "BRAND NEW XPZ 762 belt",
+    "description": "Brand new XPZ 762 drive belt",
+    "price": 5.0,
+    "image": "belt.webp",
+    "link": "https://www.ebay.co.uk/itm/185424933098",
+    "category": "part"
+  },
+  {
+    "name": "Myford change gear 40 toothed for Super7 ML7 ML10 lathes",
+    "description": "Myford change gear 40 toothed for Super7 ML7 ML10 lathes",
+    "price": 14.0,
+    "image": "gear40.webp",
+    "link": "https://www.ebay.co.uk/itm/184934480896",
+    "category": "part"
+  },
+  {
+    "name": "150mm stainless steel ruler imperial and metric markings conversion chart",
+    "description": "150mm stainless steel ruler imperial and metric markings conversion chart on rear, good quality and ready to use, (make might be different, same quality) ",
+    "price": 6.0,
+    "image": "steelruler.webp",
+    "link": "https://www.ebay.co.uk/itm/185959359218",
+    "category": "part"
+  },
+  {
+    "name": "Grey machine paint 400ML SPRAY RATTLE CAN to match Late Boxford Grey (blue Hint)",
+    "description": "Grey (hint of blue) machine paint comes in a handy 400ml rattle can for ease of use, to match later Boxford grey (blue hint) lathes, we use this paint for all our refurbish Myford's, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 25.0,
+    "image": "400mlgmp.webp",
+    "link": "https://www.ebay.co.uk/itm/186608136939",
+    "category": "paint"
+  },
+  {
+    "name": "Lathe/milling machine Slideway 68 1ltr SUPER DEAL suit Myford Boxford lathes",
+    "description": "Lathe oil Slideway 68 suit lathe/milling machine user, 1ltr SUPER DEAL bottle, easy to decant into an oil can",
+    "price": 17.0,
+    "image": "slideway68.webp",
+    "link": "https://www.ebay.co.uk/itm/185609021749",
+    "category": "part"
+  },
+  {
+    "name": "300mm stainless steel ruler imperial and metric markings conversion chart",
+    "description": "300mm stainless steel ruler imperial and metric markings conversion chart on rear, good quality and ready to use, (make might be different, same quality) ",
+    "price": 8.0,
+    "image": "ruler800.webp",
+    "link": "https://www.ebay.co.uk/itm/185959357501",
+    "category": "part"
+  },
+  {
+    "name": "Myford change gear 38 toothed for Super7 ML7 ML10 lathes",
+    "description": "Myford change gear 38 toothed for Super7 ML7 ML10 lathes",
+    "price": 9.99,
+    "image": "38gear.webp",
+    "link": "https://www.ebay.co.uk/itm/184934477880",
+    "category": "part"
+  },
+  {
+    "name": "Myford ML10 Change gear cover in good condition",
+    "description": "Myford ML10 Change gear cover in good condition, with fixing and ready to fit",
+    "price": 45.0,
+    "image": "gearchange.webp",
+    "link": "https://www.ebay.co.uk/itm/184975678271",
+    "category": "part"
+  },
+  {
+    "name": "Myford change gear 35 toothed for Super7 ML7 ML10 lathes",
+    "description": "Myford change gear 35 toothed for Super7 ML7 ML10 lathes",
+    "price": 14.99,
+    "image": "35gear.webp",
+    "link": "https://www.ebay.co.uk/itm/184934475178",
+    "category": "part"
+  },
+  {
+    "name": "BRAND NEW A34 belt",
+    "description": "BRAND NEW A34 belt",
+    "price": 5.0,
+    "image": "a34belt.webp",
+    "link": "https://www.ebay.co.uk/itm/185342932845",
+    "category": "part"
+  },
+  {
+    "name": "Myford change gear 28 toothed for Super7 ML7 ML10 lathes",
+    "description": "Myford change gear 28 toothed for Super7 ML7 ML10 lathes",
+    "price": 25.0,
+    "image": "28gear.webp",
+    "link": "https://www.ebay.co.uk/itm/185795092683",
+    "category": "part"
+  },
+  {
+    "name": "Myford change gear 26 toothed for Super7 ML7 ML10 lathes",
+    "description": "Myford change gear 26 toothed for Super7 ML7 ML10 lathes",
+    "price": 20.0,
+    "image": "26gear.webp",
+    "link": "https://www.ebay.co.uk/itm/185795082158",
+    "category": "part"
+  },
+  {
+    "name": "Grey machine paint 400ML SPRAY RATTLE CAN to match Late Boxford Grey (blue Hint)",
+    "description": "Grey (hint of blue) machine paint comes in a handy 400ml rattle can for ease of use, to match later Boxford grey (blue hint) lathes, we use this paint for all our refurbish Myford's, great if you are going to paint the entire lathe, for a HSE spec sheet please get intouch",
+    "price": 25.0,
+    "image": "greyhint400.webp",
+    "link": "https://www.ebay.co.uk/itm/186608136939",
+    "category": "part"
+  },
+  {
+    "name": "Primary and Secondary drive belts for Myford Super7 MK1 lathes BRAND NEW",
+    "description": "THIS LISTING IS FOR A MK1 SUPER7 LATHE WITH THE CLUTCH MOUNTED WITHIN THE HEADSTOCK TOP PULLEY NOT ON THE LEFTHAND SIDE",
+    "price": 11.3,
+    "image": "dualband.webp",
+    "link": "https://www.ebay.co.uk/itm/185076212348",
+    "category": "part"
+  },
+  {
+    "name": "Primary and Secondary drive belts for Myford Super7 MK2 lathes BRAND NEW",
+    "description": "MK2 LATHES HAVE THE CLUTCH MOUNTED ON THE LEFT HAND SIDE NOT WITHIN THE DRIVE PULLEYS",
+    "price": 11.3,
+    "image": "mk2band.webp",
+    "link": "https://www.ebay.co.uk/itm/184718831322",
+    "category": "part"
+  },
+  {
+    "name": "Lathe/milling machine Slideway 68 slide ways oil suit Chester lathes and mills",
+    "description": "Lathe/milling machine Slideway 68 slide ways oil suit Chester lathes and mills",
+    "price": 12.5,
+    "image": "chesterslideway.webp",
+    "link": "https://www.ebay.co.uk/itm/186129164495",
+    "category": "part"
+  },
+  {
+    "name": "Lathe/milling machine Slideway 68 slide ways oil suit Warco lathes and mills",
+    "description": "Lathe/milling machine Slideway 68 slide ways oil suit Warco lathes and mills",
+    "price": 12.5,
+    "image": "chesterslideway.webp",
+    "link": "https://www.ebay.co.uk/itm/185447368837",
     "category": "part"
   }
 ]
