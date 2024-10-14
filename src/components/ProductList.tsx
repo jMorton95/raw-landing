@@ -24,15 +24,22 @@ export const ProductList = () => {
         <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
           Machines & Replacements
         </h2>
-        <h3 className="text-2xl font-bold text-gray-600 mb-6">
+        <h3 className="text-1xl font-bold text-gray-600 mb-6">
           5% Discount applies if you call us directly at{" "}
           <a
-            className="text-2xl font-bold mb-6 text-main"
+            className="text-1xl font-bold mb-6 text-main"
             href={`tel:${import.meta.env.VITE_TELEPHONE}`}
           >
             {import.meta.env.VITE_PHONE}
           </a>
         </h3>
+
+        <h4 className="text-1xl font-bold text-gray-700 mb-6">
+          Machines and workshops always wanted.
+          <a href="#contact" className="text-1xl font-bold text-main mb-6">
+            {"   "} Please contact now
+          </a>
+        </h4>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products

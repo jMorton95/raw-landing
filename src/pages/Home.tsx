@@ -1,7 +1,7 @@
 import { Contact } from "@/components/Contact";
 import { ProductList } from "@/components/ProductList";
 import { Testimonials } from "@/components/Testimonials";
-import { WorkshopPurchaseContentBody } from "@/components/WorkshopPurchaseContentBody";
+import { ContentBody } from "@/components/ContentBody";
 import workshopTestimonial from "@/data/workshopTestimonial.json";
 import { Testimonial } from "@/types/Testimonial";
 
@@ -11,7 +11,7 @@ export const Home = () => {
     <>
       <ProductList />
 
-      <WorkshopPurchaseContentBody />
+      <ContentBody />
 
       <Testimonials
         contentText={"Service Reviews"}
