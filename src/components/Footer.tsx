@@ -23,7 +23,7 @@ export const Footer = () => {
                   href="#products"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
-                  Online Store
+                  Store
                 </a>
               </li>
               <li>
@@ -31,7 +31,7 @@ export const Footer = () => {
                   href="/#services"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
-                  Workshop Purchasing
+                  Services
                 </a>
               </li>
               <li>
@@ -40,7 +40,7 @@ export const Footer = () => {
                   target="_blank"
                   className="text-gray-400 hover:text-gray-300 text-base"
                 >
-                  Ebay Retailer
+                  Ebay Online Store
                 </a>
               </li>
               <li>
